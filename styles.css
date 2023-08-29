@@ -1,0 +1,153 @@
+.topnav{
+    position:fixed;
+    background:#000000;
+    padding:10px 240px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  
+    }
+    .topnav a{
+        padding: 10px 45px;
+        color:aliceblue;
+        text-decoration: none;
+    }
+    .topnav a:hover{
+        background-color: rgb(226, 236, 248); 
+        color:rgb(31, 66, 97);
+            }
+           /* .video1{
+                position: relative;
+                height: 100px;
+                width: 80px;
+                object-fit: cover;
+                overflow: auto;
+              } 
+              */
+              .content{
+                background-image: url('bg.jpg');
+                background-repeat: no-repeat;
+                background-size: 1300px 1100px;
+                margin: 0;
+              }
+              .content h1{
+                color: #ffffff;
+                padding: 200px 400px;
+
+              }
+              
+        .content #view{
+            overflow: none;
+            text-decoration: none;
+            width: 190px;
+            height: 40px;
+            margin: 0px 0px;
+            color: rgb(225, 242, 255);
+            background-color: rgb(67, 66, 66);
+        }
+            
+    
+
+              .about {
+                display: flex;
+                padding: 60px 80px;
+                align-items: center;
+                justify-content: center;
+                height: 600px;
+              }
+              img {
+                border-radius: 2px;
+                width: 400px;
+                height: 300px;
+              }
+              .image {
+                flex-basis: 40%;
+              }
+              
+              .text {
+                font-size: 20px;
+                padding-left: 130px;
+                padding-top: 10px;
+              }
+
+              .myskills{
+                background-color: black;
+                padding: 50px 430px;
+              }
+              .myskills h1 {
+                color: #ffffff;
+              }
+              .myskills p{
+                color: #ffffff;
+              }
+.container {
+    width: 95%;
+    background-color: #ddd;
+    display: flex;
+  }
+  
+  .skills {
+      display: flex;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;display: flex;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+  .Lang {
+    background-color: rgb(72, 140, 180);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+         .project #viewmore{
+          overflow: none;
+              width: 150px;
+              height: 30px;
+              margin: 10px 980px;
+              background-color: #80978f;
+              color: #1a1414;
+         }   
+         .project #viewmore:hover{
+         background-color: #fdd0d0;
+      } 
+      .contactcontainer{
+        padding-top: 30px;
+        margin-left: 400px;
+        padding-left: 130px;
+        padding-right: 80px;
+        margin-bottom: 40px;
+        width: 350px;
+        background-color: #575e64;
+    }
+ 
+    footer {
+        background-color: #333;
+        color: rgb(201, 192, 192);
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .social-icons {
+        margin-top: 10px;
+    }
+    
+    .social-icons a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .social-icons a:hover {
+      color: #cfc2c2;
+      transition: color 0.3s ease-in;
+    }
